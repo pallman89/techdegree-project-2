@@ -1,0 +1,141 @@
+/* ==================== */
+/* Main Body */
+/* ==================== */
+
+body {
+    background-color: rgb(243, 243, 243);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(71, 71, 71);
+   
+}
+
+p {
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* ==================== */
+/* Heading Area */
+/* ==================== */
+h1 {
+    text-align: center;
+    font-weight: 800;
+}
+
+ul {
+    padding-left: 0;
+}
+.header-paragraph {
+    text-align: center;
+    padding-bottom: 4em;
+}
+.main-nav li {
+   
+    list-style-type: none;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: white;
+    margin-top: .3em;
+    padding-left: 4em;
+    padding-right: 4em;
+    text-align: center;
+    font-weight: 400;
+    font-size: .75em;
+    
+   
+    
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+   
+    
+}
+
+.profile-pic {
+
+    margin: 0 3em 0 4em;
+    max-width: 60%;
+  
+   
+}
+
+/* ==================== */
+/* Main section of site */
+/* ==================== */
+
+.portfolio-pages {
+    background-color: white;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.portfolio-pages p {
+    padding-bottom: 2em;
+}
+
+
+
+
+.contact-div {
+
+    border-bottom: rgb(71, 71, 71) solid 1px;
+    text-align: center;
+    
+}
+
+.contact-div a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+span {
+    font-weight: bold;
+}
+
+footer ul{
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    list-style-type: none;
+    font-weight: 800;
+    padding-left: 5em;
+
+    
+}
+
+footer ul,
+footer li,
+h3 {
+    display: inline-block;
+    
+}
+
+/* ==================== */
+/* Media Query */
+/* ==================== */
+
+@media (min-width: 768px) {
+
+
+
+}
+
+
+
+@media (min-width: 1024px) {
+
+
+
+}
