@@ -9,62 +9,74 @@
 
     <title>Responsive Website</title>
 </head>
-<body >
-    <header>
+<body  class="container" >
+    <header class="clearfix">
         <h1>Patrick Allman</h1>
-        <ul class="main-nav">
+        <ul class="main-nav clearfix">
             <li><a href="#top">HOME</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#project-management">PROJECT MANAGEMENT</a></li>
             <li><a href="#contact">CONTACT</a></li>
         </ul>
         <img src="images/responsive-layout-profile.png" alt="profile picture" class="profile-pic">
         <p class="header-paragraph">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skill to use!</p>
     </header>
-    <main class="portfolio-pages">
+    <main class="portfolio-pages clearfix">
         <h2 id="portfolio">PORTFOLIO</h2>
-            <div class="portfolio-pages">
+            <div class="marketing-pages">
                     <img src="images/portfolio-1.png" alt="marketing pic">
                     <h3>Marketing Page</h3>
                     <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
             </div>
-            <div>
+            <div class="search-pages">
                     <img src="images/portfolio-2.png" alt="search page">
                     <h3>Seach Page</h3>
                     <p>This project searches through a specific database to find information that the user is trying to look up.</p>
             </div>
-            <div>
+            <div class="travel-pages">
                     <img src="images/portfolio-3.png" alt="travel app">
                     <h3>Travel App</h3>
                     <p>This project compares travel times based on different transportation methods and tells you the best one</p>
             </div>
-            <div>
+            <div class="favorite-pages">
                     <img src="images/portfolio-4.png" alt="favorite spots">
                     <h3>Map of Favorite Spots</h3>
                     <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
             </div>
-            <div>
+            <div class="gallery-pages">
                     <img src="images/portfolio-5.png" alt="photo gallery">
                     <h3>Photo Gallery</h3>
                     <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
             </div>
-            <div>
+            <div class="calculator-pages">
                     <img src="images/portfolio-6.png" alt="calculator">
                     <h3>Calculator</h3>
                     <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
             </div>
             
     </main>
-    <div class="contact-div">
+    <div id="project-management" class="project-management clearfix">
+        <img class="project-pic" src="images/project-management-952x640.png"    alt="project management">
+        <h2>Project Management</h2>  
+        <p>Aside from developing new skills for the tech world, I have over 10 years of project management under my belt. My project management career began in graphics production for custom tradeshow booths and then spent the most recent 6 years managing and facilitating flooring repairs in retail and commercial settings. I beleive communication is the most important key in being able to manage projects from start to finish.  </p>
+    </div>
+    <div class="contact-div clearfix">
             <h2 id="contact">CONTACT</h2>
             <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
             <p>Phone <span>314-357-2817</span></p>
             <p>Email <a href="mailto:pallman89@icloud.com">pallman89@icloud.com</a></p>
     </div>
-    <footer>
+    <footer class="footer-border clearfix">
             <h3>Patrick Allman</h3>
-            <ul >
+            <ul class="mobile-footer">
                 <li><a href="#top">Back To Top</a></li>
             </ul>
+            <ul class="wide-footer">
+                        <li><a href="#top">HOME</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#project-management">PROJECT MANAGEMENT</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
     </footer>
 </body>
 </html>

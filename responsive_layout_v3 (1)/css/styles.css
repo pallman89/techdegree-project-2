@@ -20,12 +20,19 @@ img {
 }
 
 
+
+
+
 /* ==================== */
 /* Heading Area */
 /* ==================== */
 h1 {
     text-align: center;
-    font-weight: 800;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    text-shadow: 1px 1px 2px rgb(75, 73, 73);
+    
+    
 }
 
 ul {
@@ -40,13 +47,14 @@ ul {
     list-style-type: none;
     padding-top: .5em;
     padding-bottom: .5em;
-    background-color: white;
+    
     margin-top: .3em;
     padding-left: 4em;
     padding-right: 4em;
     text-align: center;
     font-weight: 400;
     font-size: .75em;
+    text-decoration: underline;
     
    
     
@@ -59,10 +67,15 @@ ul {
     
 }
 
+.main-nav a:hover {
+    color:rgb(5, 147, 212);
+}
+
 .profile-pic {
 
     margin: 0 3em 0 4em;
     max-width: 60%;
+    
   
    
 }
@@ -74,19 +87,26 @@ ul {
 .portfolio-pages {
     background-color: white;
     text-align: center;
-    padding-top: 3em;
+    padding-top: 1em;
+    box-shadow: 1px 1px 14px;
 }
 
 .portfolio-pages p {
     padding-bottom: 2em;
 }
 
-
+.project-management {
+    background-color: white;
+    text-align: center;
+    padding-top: 3em;
+    box-shadow: 1px 1px 14px;
+    margin-top: 2em;
+}
 
 
 .contact-div {
 
-    border-bottom: rgb(71, 71, 71) solid 1px;
+    
     text-align: center;
     
 }
@@ -95,6 +115,9 @@ ul {
     font-weight: bold;
     text-decoration: none;
     color: rgb(71, 71, 71);
+}
+.contact-div a:hover {
+    color:rgb(5, 147, 212);
 }
 
 span {
@@ -105,12 +128,17 @@ footer ul{
     
 }
 
+
+/* ============== */
+/* Footer */
+/* ============== */
 footer a {
     text-decoration: none;
     color: rgb(71, 71, 71);
     list-style-type: none;
     font-weight: 800;
     padding-left: 5em;
+    
 
     
 }
@@ -122,20 +150,224 @@ h3 {
     
 }
 
+.wide-footer{
+    display: none;
+}
+
+.footer-border {
+    border-top: rgb(71, 71, 71) solid 1px;
+}
+
+   /* ---- Float clearfix ---- */
+   .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 /* ==================== */
 /* Media Query */
 /* ==================== */
 
 @media (min-width: 768px) {
+    
+    .container {
+       margin-left: 1em;
+       margin-right: 1em;
+    }
+    .profile-pic {
+        float: right;
+        max-width: 30%;
+        padding-top: 2em;
+        padding-left: .75em;
+        margin-left: 0;
+    }
+    
+     .main-nav li {
+        
+        display: inline;
+        padding-right: 0;
+        
+    }
+   
 
+    .main-nav  {
+        margin-left: 6em;
+    }
 
+    .header-paragraph {
+        text-align: left;
+        padding-left: 3em;
+        padding-top: 2em;
 
+    }
+
+    .portfolio-pages {
+        background-color: white;
+    }
+
+    .marketing-pages {
+        float: left;
+        width: 40%;
+        margin-left: 3em;
+    }
+    .search-pages {
+        float: right;
+        width: 40%;
+        margin-right: 3em;
+    }
+
+    .travel-pages {
+        float: left;
+        width: 40%;
+        margin-left: 3em;
+    }
+    .favorite-pages {
+        float: right;
+        width: 40%;
+        margin-right: 3em;
+    }
+
+    .gallery-pages {
+        float: left;
+        width: 40%;
+        margin-left: 3em;
+    }
+    .calculator-pages {
+        float: right;
+        width: 40%;
+        margin-right: 3em;
+        
+    }
+    .project-management h2 {
+        margin-top: 0;
+    }
+
+    .project-management {
+        text-align: left;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 1.75em;
+    }
+
+    .project-pic {
+        width:40%;
+        float: left;
+        padding-right: 1em;
+    }
+
+    .mobile-footer{
+        display: none;
+    }
+
+    .wide-footer  {
+        display: inline;
+        margin-left: 20em;
+        margin-right:  0;
+        
+    
+    }
+    .wide-footer li {
+        text-decoration: underline;
+        font-size: .5em;
+    }
+
+    .wide-footer a {
+        padding-left: .5em;
+        padding-right: 0;
+        
+    }
+
+    h3 {
+        margin-left: 1em;
+    }
+    .wide-footer a:hover {
+        color:rgb(5, 147, 212);
+    }
+
+    .contact-div {
+        padding: 3em 0;
+        margin: 0 6em;
+    }
+    
+    
+    
 }
 
 
 
 @media (min-width: 1024px) {
 
+    h1 {
+        text-align: left;
+        display:inline ;
+        margin-right: 4em;
+    }
 
+    header {
+        margin-top: 2em;
+        margin-left: 2em;
+    }
+    
+   
+    .main-nav {
+        display: inline;
+        
+    }
 
+    #portfolio {
+        margin-bottom: 2em;
+    }
+
+    .header-paragraph {
+        margin: 1em 0 3em;
+        padding-top: 3.5em;
+        padding-left: 0;
+    }
+
+    .profile-pic {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        margin-top: 2.5em;
+        width: 40%;
+    }
+
+    .marketing-pages {
+        float: left;
+        width: 27%;
+        margin-left: 3.25em;
+    }
+    .search-pages {
+        float: left;
+        width: 27%;
+        margin: 0 0 0 2.5em;
+    }
+
+    .travel-pages {
+        float: ;
+        width: 27%;
+        margin-left: 2.5em;
+        margin-right: ;
+    }
+    .favorite-pages {
+        float: left;
+        width: 27%;
+        margin: 0 0 0 3.25em;
+    }
+
+    .gallery-pages {
+        float: left ;
+        width: 27%;
+        margin-left: 2.5em;
+    }
+    .calculator-pages {
+        float: left;
+        width:27%;
+        margin: 0 0 0 2.5em;
+        
+    }
+
+    footer h3 {
+        margin-right: 14em;
+    }
 }
