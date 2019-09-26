@@ -5,7 +5,7 @@
 body {
     background-color: rgb(243, 243, 243);
     font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Roboto', sans-serif;
+   
     color: rgb(71, 71, 71);
    
 }
@@ -138,6 +138,7 @@ footer a {
     list-style-type: none;
     font-weight: 800;
     padding-left: 5em;
+    float: right;
     
 
     
@@ -190,9 +191,13 @@ h3 {
         
     }
    
-
+    ul {
+        text-align: center;
+    }
     .main-nav  {
-        margin-left: 6em;
+        
+        text-align: center;
+        
     }
 
     .header-paragraph {
@@ -210,33 +215,39 @@ h3 {
         float: left;
         width: 40%;
         margin-left: 3em;
+        height: 366px;
     }
     .search-pages {
         float: right;
         width: 40%;
         margin-right: 3em;
+        height: 366px;
     }
 
     .travel-pages {
         float: left;
         width: 40%;
         margin-left: 3em;
+        height: 366px;
     }
     .favorite-pages {
         float: right;
         width: 40%;
         margin-right: 3em;
+        height: 366px;
     }
 
     .gallery-pages {
         float: left;
         width: 40%;
         margin-left: 3em;
+        height: 366px;
     }
     .calculator-pages {
         float: right;
         width: 40%;
         margin-right: 3em;
+        height: 366px;
         
     }
     .project-management h2 {
