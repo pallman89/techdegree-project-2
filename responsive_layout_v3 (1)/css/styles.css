@@ -3,7 +3,7 @@
 /* ==================== */
 
 body {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(211, 211, 211);
     font-family: 'Source Sans Pro', sans-serif;
    
     color: rgb(71, 71, 71);
@@ -124,9 +124,6 @@ span {
     font-weight: bold;
 }
 
-footer ul{
-    
-}
 
 
 /* ============== */
@@ -150,13 +147,16 @@ h3 {
     display: inline-block;
     
 }
+.mobile-footer {
+    float: right;
+  }
 
 .wide-footer{
     display: none;
 }
 
 .footer-border {
-    border-top: rgb(71, 71, 71) solid 1px;
+    border-top: rgb(255, 255, 255) solid 2px;
 }
 
    /* ---- Float clearfix ---- */
