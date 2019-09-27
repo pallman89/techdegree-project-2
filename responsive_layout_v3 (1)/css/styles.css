@@ -193,6 +193,7 @@ h3 {
    
     ul {
         text-align: center;
+
     }
     .main-nav  {
         
@@ -273,14 +274,13 @@ h3 {
 
     .wide-footer  {
         display: inline;
-        margin-left: 20em;
-        margin-right:  0;
+        float: right;
         
     
     }
     .wide-footer li {
         text-decoration: underline;
-        font-size: .5em;
+        font-size: 1em;
     }
 
     .wide-footer a {
@@ -312,7 +312,8 @@ h3 {
     h1 {
         text-align: left;
         display:inline ;
-        margin-right: 4em;
+        float: left;
+        margin-top: 0;
     }
 
     header {
@@ -320,9 +321,21 @@ h3 {
         margin-left: 2em;
     }
     
+    nav {
+        display: inline;
+    }
+    ul {
+        float:right;
+        
+    }
+
+    .main-nav li {
+        font-size: 1em;
+    }
    
     .main-nav {
         display: inline;
+        
         
     }
 
